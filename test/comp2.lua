@@ -1,4 +1,6 @@
 local modem = peripheral.find("modem") or error("No modem found")
+modem.open(2)
+
 while(true)
 do
     local event, side, channel, replyChannel, message, distance
