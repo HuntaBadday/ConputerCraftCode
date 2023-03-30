@@ -1,0 +1,2 @@
+modem = peripheral.find("modem")
+
