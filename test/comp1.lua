@@ -6,6 +6,6 @@ do
     print("6")
     modem.transmit(2, 3, "Testing "..tostring(num))
     num = num + 1
-    coroutine.yield()
+    sleep(0)
     os.sleep(0.5)
 end
