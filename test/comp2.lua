@@ -8,4 +8,5 @@ do
     until channel == 2
     print(tostring(message))
     coroutine.yield()
+    os.sleep(0.5)
 end
