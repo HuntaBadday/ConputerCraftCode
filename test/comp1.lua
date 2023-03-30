@@ -4,7 +4,7 @@ print("6")
 local num = 0
 while(true)
 do
-    print("6")
+    print(num)
     modem.transmit(2, 3, "Testing "..tostring(num))
     num = num + 1
     sleep(0)
