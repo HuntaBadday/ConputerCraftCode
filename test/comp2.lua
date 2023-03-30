@@ -5,8 +5,9 @@ do
     local event, side, channel, replyChannel, message, distance
     repeat
         event, side, channel, replyChannel, message, distance = os.pullEvent("modem_message")
+        print("6")
     until channel == 2
-    print(tostring(message))
+    print("h")
     coroutine.yield()
     os.sleep(0.5)
 end
