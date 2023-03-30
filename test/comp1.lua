@@ -1,6 +1,5 @@
 local modem = peripheral.find("modem") or error("No modem found")
 
-print("6")
 local num = 0
 while(true)
 do
