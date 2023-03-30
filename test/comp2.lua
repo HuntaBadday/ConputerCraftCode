@@ -1,5 +1,5 @@
 local modem = peripheral.find("modem") or error("No modem found")
-print("BootingT1")
+print("BootingT2")
 modem.open(2)
 
 while(true)
@@ -9,5 +9,4 @@ do
         event, side, channel, replyChannel, message, distance = os.pullEvent("modem_message")
         sleep(0)
     until channel == 2
-    os.sleep(0.5)
 end
