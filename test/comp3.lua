@@ -1,5 +1,5 @@
 local modem = peripheral.find("modem") or error("No modem found")
-print("BootingT1")
+print("BootingT2")
 modem.open(2)
 
 while(true)
